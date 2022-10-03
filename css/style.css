@@ -623,6 +623,48 @@ div#main-nav {
 
 
 
+/* Projects
+---------------------------------*/
+
+#projects {
+    padding: 50px 0px 50px 0px;
+}
+
+.page_section.projects {
+    padding: 0px 0px;
+}
+
+.container {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+    background-position-y: 70px;
+}
+
+.projects_section h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    color: #1e1f1f;
+    margin: 0 0 50px 0;
+    text-transform: uppercase;
+}
+
+.projects_section h3 {
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.projects_section p {
+    margin:0 0 40px 0;
+
+}
+
+/* Image projects
+---------------------------------*/
+
 
 
 /* Services
