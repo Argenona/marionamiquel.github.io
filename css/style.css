@@ -790,25 +790,25 @@ a.contact_btn:hover {
 /* Introduction */
 
 #welcome {
-    padding: 80px 0px;
+    padding: 140px 0px;
 }
 
 .Welcome-container {
     margin: 0 auto;
     padding-left: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     width: auto !important;
 }
 
-.container.welcome_title {
+.container.welcome h1 {
     text-align:center;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-weight:600;
     color: #595F63;
-    padding-top: 40px;
-    padding-bottom: 50px;
 }
 
-.container.welcome_subtitle {
+.container.welcome h6 {
     margin: 0 auto;
     text-align: center;
 }
@@ -1002,15 +1002,42 @@ img {
 /* About Us
 --------------------------- */
  
+#aboutus {
+    padding: 50px 0px 50px 0px;
+}
+
 .aboutUs-container {
 background-repeat: no-repeat;
 background-position: right;
 background-size: auto 100%;
 background-position-y: 70px;
 }
-#about-us, h2, h3, h6, p {
-color: #0A1525;
+
+.aboutus_section h2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #595F63;
+    margin: 0 0 50px 0;
+    text-transform: uppercase;
 }
+
+.aboutus_section h6 {
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+}
+
+.aboutus_section p {
+    align: justify;
+}
+
+.aboutus-container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: auto !important;
+}
+
 #about-us .read-more{
 	border: 1px solid #ED5441;
 	color: #1a1a1a;
@@ -1070,6 +1097,38 @@ color: #0A1525;
 	margin-left: 0;
 }
 
+
+/* Selected works
+---------------------------------*/
+.page_section.works {
+    padding: 50px 0px 50px 0px;
+}
+
+.works_container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: auto !important;
+}
+ 
+.works_section {
+    margin: 50px 0 50px 0;
+}
+
+.works_section h2 {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 500;
+    color: #595F63;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+
+.works_section h6 {
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+}
 
 /* Team
 ---------------------------------*/
@@ -1228,7 +1287,7 @@ transition: all .3s;
 }
 
 .contact_section h2 {
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     color: #595F63;
     margin: 0 0 50px 0;
@@ -1244,7 +1303,7 @@ transition: all .3s;
 }
 
 .page_section.form {
-    padding: 20px 0px;
+    padding: 0px 0px;
     margin: 0 0 0 0;
     background-color:#EEE3D8 ;
 }
@@ -1298,7 +1357,7 @@ transition: all .3s;
 
 .contact_info {
     font-size: 15px;
-    margin: 0 0 0 20px;
+    margin: 0 0 0 50px;
     padding-left: 0;
 }
 
@@ -1309,16 +1368,20 @@ transition: all .3s;
     color: #fff;
 }
 
+.detail {
+    margin: 40px 0px 40px 0px;
+}
 .contact_info p {
     line-height: 28px;
     display: block;
     font-size: 16px;
-    color: #ffffff;
-    margin: 0 0 30px;
+    color: #595F63;
+    text-align: left;
+    margin: 20px 0 10px 0;
 }
 
 .form {
-    margin: 0 66px 0 30px;
+    margin: 20px 50px 20px 0px;
 }
 
 .input-text {
@@ -1329,7 +1392,7 @@ transition: all .3s;
     display: block;
     border-radius: 4px;
     font-size: 15px;
-    color: #aaa;
+    color: #595F63;
     margin: 0 0 15px 0;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1355,9 +1418,9 @@ transition: all .3s;
     width: 175px;
     height: 50px;
     letter-spacing: 0px;
-    background: #b6bcc0;
+    background: #EEE3D8 ;
     border-radius: 3px;
-    color: #000000;
+    color: #595F63;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
@@ -1368,7 +1431,7 @@ transition: all .3s;
 }
 
 .input-btn:hover {
-    background: #fff;
+    background: #595F63;
     color: #222;
 }
 
@@ -1376,7 +1439,7 @@ transition: all .3s;
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #EEE3D8 ;
+    background: #eee3d800 ;
 }
 
 .footer_bottom {
@@ -1609,7 +1672,7 @@ transition: all .3s;
 }
 
 .section-title h2 {
-    color: #222222;
+    color: #595F63;
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
     letter-spacing: -1px;
