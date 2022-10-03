@@ -1006,13 +1006,20 @@ img {
     padding: 50px 0px 50px 0px;
 }
 
-.aboutUs-container {
+.page_section.aboutus {
+    padding: 50px 0px;
+}
+
+.container {
 background-repeat: no-repeat;
 background-position: right;
 background-size: auto 100%;
 background-position-y: 70px;
 }
 
+.aboutus_description {
+    padding: 20px 0px 0px 0px;
+}
 .aboutus_section h2 {
     font-size: 60px;
     font-weight: bold;
@@ -1024,6 +1031,7 @@ background-position-y: 70px;
 .aboutus_section h6 {
     font-weight: lighter;
     margin: 0 0 10px 0;
+    line-height: 25px;
 }
 
 .aboutus_section p {
@@ -1037,6 +1045,7 @@ background-position-y: 70px;
     padding-bottom: 60px;
     width: auto !important;
 }
+
 
 #about-us .read-more{
 	border: 1px solid #ED5441;
@@ -1130,6 +1139,28 @@ background-position-y: 70px;
     margin: 0 0 10px 0;
 }
 
+.verticalLine {
+    border-right: thick solid #595F63;
+
+}
+
+.works_textblock {
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    width: auto !important;
+}
+
+.works_textblock h3 {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.works_textblock p {
+    margin-bottom: 15px;
+    text-align: top;
+}
+
 /* Team
 ---------------------------------*/
 .team_section {
@@ -1216,10 +1247,10 @@ background-position-y: 70px;
     display: inline-block;
     margin: 0 11px;
 	width: 34px; 
-border-radius: 50%;
-background: #fff;
-padding: 10px 0 4px;
-margin-bottom: 5px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 10px 0 4px;
+    margin-bottom: 5px;
 }
 
 .team_box ul li a { 
