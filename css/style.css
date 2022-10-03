@@ -1027,7 +1027,7 @@ background-position-y: 70px;
 }
 
 .aboutus_section p {
-    align: justify;
+    text-align: justify;
 }
 
 .aboutus-container {
