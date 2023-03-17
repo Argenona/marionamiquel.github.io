@@ -110,36 +110,41 @@
       <!--/Portfolio Filters -->
 
       <!-- Portfolio Wrapper -->
-      <figure class="portfolio-item one-four citylife isotope-item effect-oscar">
-        <div class="portfolio_img">
-          <img src="img/portfolio_pic1.jpg" class="fancybox" alt="Portfolio 1">
-        </div>
-        <figcaption>
-          <div class="portfolio-content">
-            <h2>Generación D <span>Oscar</span></h2>
-            <div class="portfolio-link" onclick="window.location.href='projects/vampire-academy-t1.html';" role="button" tabindex="0" aria-label="Link to Generación D project page">
-              <span class="sr-only">Link to Generación D project page</span>
-            </div>
-          </div>
-        </figcaption>
-      </figure>
-        <!--/Portfolio Item -->
+      <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;"
+        id="portfolio_wrapper">
+        <!-- Portfolio Item - Vampire Academy-->
+        <figure
+          style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
+          class="portfolio-item one-four   citylife isotope-item effect-oscar">
 
-        <!-- Portfolio Item - Generación D -->
-        <figure class="portfolio-item one-four citylife isotope-item effect-oscar">
           <div class="portfolio_img">
-            <img src="img/portfolio_pic2.jpg" class="fancybox" alt="Portfolio 1">
+            <img src="img/portfolio_pic1.jpg" alt="Portfolio 1">
           </div>
           <figcaption>
-            <div class="portfolio-content">
-              <h2>Generación D <span>Oscar</span></h2>
-              <div class="portfolio-link" onclick="window.location.href='projects/generacion-d.html';" role="button" tabindex="0" aria-label="Link to Generación D project page">
-                <span class="sr-only">Link to Generación D project page</span>
-              </div>
+            <div>
+              <a href="projects/vampire-academy-t1.html" class="fancybox">
+                <h2>Vampire Academy <span>Season 1</span></h2>
+                <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+              </a>
             </div>
           </figcaption>
         </figure>
+        <!--/Portfolio Item -->
 
+        <!-- Portfolio Item - Generación D-->
+        <figure
+          style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;"
+          class="portfolio-item one-four  citylife isotope-item effect-oscar">
+          <div class="portfolio_img"> <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
+          <figcaption>
+            <div>
+              <a href="projects/generacion-d.html" class="fancybox">
+                <h2>Generación D <span>Oscar</span></h2>
+                <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+              </a>
+            </div>
+          </figcaption>
+        </figure>
         <!--/Portfolio Item -->
 
         <!-- Portfolio Item -->
@@ -258,9 +263,7 @@
   <!--Footer-->
   <footer class="footer_wrapper" id="footer">
     <div class="container">
-      <section class="page_section footer" id="footer">
-        <div class="container">
-          <div class="footer_bottom">
+      <div class="footer_bottom">
             <div class="col-lg-6">
               <ul class="social_links">
                 <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i
@@ -278,8 +281,7 @@
             </div>
           </div>
         </div>
-      </section>
-    </div>
+
 
   </footer>
 
