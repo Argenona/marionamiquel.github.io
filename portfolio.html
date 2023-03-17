@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, user-scalable=yes">
   <!-- canviar nom de la pagina web "amaze photography" pel que vulguis -->
   <title>Mariona Miquel Design</title>
   <link rel="icon" href="favicon.png" type="image/png">
@@ -36,9 +36,12 @@
           </div>
           <div id="main-nav" class="collapse navbar-collapse navStyle">
             <ul class="nav navbar-nav" id="mainNav">
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="about-me.html">About Me</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <!-- Enllaç a la pàgina del portfoli -->
+              <li><a href="portfolio.html" rel="noopener">Portfolio</a></li>
+              <!-- Enllaç a la pàgina "Sobre mi" -->
+              <li><a href="about-me.html" rel="noopener">About Me</a></li>
+              <!-- Enllaç a la pàgina de contacte -->
+              <li><a href="contact.html" rel="noopener">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -58,10 +61,37 @@
 
     </div>
 
-    <div class="conatiner welcome">
+    <div class="container welcome">
       <h6>Concept Artist & 3D modeler</h6>
     </div>
   </header>
+
+  <!-- Portfolio AI-->
+  <section id="portfolio">
+    <div class="portfolio-item">
+      <div class="portfolio-image">
+        <img src="img/portfolio-1.jpg" alt="Portfolio item">
+      </div>
+      <div class="portfolio-content">
+        <h3>Projecte 1</h3>
+        <div class="portfolio-link" onclick="window.location.href='projecte1.html';" role="button" tabindex="0">
+          <span class="sr-only">Veure detalls del projecte 1</span>
+        </div>
+      </div>
+    </div>
+    <div class="portfolio-item">
+      <div class="portfolio-image">
+        <img src="img/portfolio-2.jpg" alt="Portfolio item">
+      </div>
+      <div class="portfolio-content">
+        <h3>Projecte 2</h3>
+        <div class="portfolio-link" onclick="window.location.href='projecte2.html';" role="button" tabindex="0">
+          <span class="sr-only">Veure detalls del projecte 2</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
   <!-- Portfolio -->
   <section id="Portfolio" class="content">
